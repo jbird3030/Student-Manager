@@ -1,0 +1,51 @@
+﻿@model Student
+
+@{
+    ViewBag.Title = $"{ViewBag.Action} Student";
+}
+
+<h2>@ViewBag.Action Student</h2>
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<form asp-action="Edit" method="post">
+
+    <input type="hidden" asp-for="StudentId" />
+
+    <div class="form-group">
+        <label asp-for="FirstName">First name</label>
+        <input asp-for="FirstName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="LastName">Last name</label>
+        <input asp-for="LastName" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="City">City</label>
+        <input asp-for="City" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="State">State</label>
+        <input asp-for="State" class="form-control" />
+    </div>
+        <div class="form-group">
+        <label asp-for="Zip">Zip</label>
+        <input asp-for="Zip" class="form-control" />
+    </div>
+
+
+    <button type="submit" class="btn btn-dark">@ViewBag.Action</button>
+
+    @if (ViewBag.Action == "Edit")
+    {
+        <a asp-action="Details" asp-controller="Student"
+           asp-route-id="@Model.StudentId" asp-route-slug="@Model.Slug"
+           class="btn btn-dark">Cancel</a>
+    }
+    else
+    {
+        <a asp-action="Index" asp-controller="Home"
+           class="btn btn-dark">Cancel</a>
+    }
+
+</form>

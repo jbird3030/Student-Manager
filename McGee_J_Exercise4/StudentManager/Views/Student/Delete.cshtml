@@ -1,0 +1,22 @@
+﻿@model Student
+
+@{
+    ViewBag.Title = $"Delete Student";
+}
+
+<h2>Delete Student</h2>
+
+<form asp-action="Delete" method="post">
+
+    <input type="hidden" asp-for="StudentId" />
+
+    <p>
+        Do you really want to delete <b>@Model.FirstName @Model.LastName</b>?
+    </p>
+
+    <button type="submit" class="btn btn-dark">Yes</button>
+    <a asp-action="Details" asp-controller="Student"
+        asp-route-id="@Model.StudentId" asp-route-slug="@Model.Slug"
+        class="btn btn-dark">No</a>
+
+</form>

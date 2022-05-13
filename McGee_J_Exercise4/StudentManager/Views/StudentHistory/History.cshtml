@@ -1,0 +1,39 @@
+﻿@model List<StudentHistory>
+
+
+<h2>History</h2>
+
+<a asp-action="Index" asp-controller="Home" class="btn btn-dark">Home</a>
+
+
+<table class="table mt-2">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Zip</th>
+            <th>Action Taken</th>
+            <th>User Name</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody>
+       @foreach (var history in Model)
+        {
+        <tr>
+            <td>@history.FirstName</td>
+            <td>@history.LastName </td>
+            <td>@history.City</td>
+            <td>@history.State</td>
+            <td>@history.Zip</td>
+            <td>@history.ActionTaken</td>
+            <td>@history.Username</td>
+            <td>@history.Today</td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+

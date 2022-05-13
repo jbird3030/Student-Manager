@@ -1,0 +1,48 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Current_StudentManager
+build_property.RootNamespace = Current_StudentManager
+build_property.ProjectDir = C:\Users\jbird\Desktop\School Stuff\C# 2\Exercise 4\Version 2\McGee_J_Exercise4\StudentManager\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\jbird\Desktop\School Stuff\C# 2\Exercise 4\Version 2\McGee_J_Exercise4\StudentManager
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/jbird/Desktop/School Stuff/C\# 2/Exercise 4/Version 2/McGee_J_Exercise4/StudentManager/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jbird/Desktop/School Stuff/C\# 2/Exercise 4/Version 2/McGee_J_Exercise4/StudentManager/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jbird/Desktop/School Stuff/C\# 2/Exercise 4/Version 2/McGee_J_Exercise4/StudentManager/Views/Student/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jbird/Desktop/School Stuff/C\# 2/Exercise 4/Version 2/McGee_J_Exercise4/StudentManager/Views/Student/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jbird/Desktop/School Stuff/C\# 2/Exercise 4/Version 2/McGee_J_Exercise4/StudentManager/Views/Student/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jbird/Desktop/School Stuff/C\# 2/Exercise 4/Version 2/McGee_J_Exercise4/StudentManager/Views/Student/HistoryDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxIaXN0b3J5RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jbird/Desktop/School Stuff/C\# 2/Exercise 4/Version 2/McGee_J_Exercise4/StudentManager/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jbird/Desktop/School Stuff/C\# 2/Exercise 4/Version 2/McGee_J_Exercise4/StudentManager/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
